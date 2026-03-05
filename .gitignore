@@ -1,0 +1,4 @@
+node_modules/
+grok-prompt-runner/outputs/
+.DS_Store
+*.log
