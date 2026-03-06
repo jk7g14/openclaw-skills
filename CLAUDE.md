@@ -12,6 +12,13 @@ openclaw-skills/
 │   │   └── calc_hours.js  # 근무시간 계산 엔진 (Node.js, 외부 의존성 없음)
 │   └── install.sh         # ~/.openclaw/workspace/skills/에 설치
 │
+├── simon-writing/         # 김서준식 에세이 생성 스킬
+│   ├── SKILL.md           # OpenClaw 스킬 정의 (워크플로우 + 글쓰기 원칙)
+│   ├── references/
+│   │   ├── analysis/      # 글쓰기 스타일 분석 7편
+│   │   └── posts/         # 원문 포스팅 27편
+│   └── install.sh         # ~/.openclaw/workspace/skills/에 설치
+│
 └── grok-prompt-runner/    # agent-browser로 Grok에 프롬프트 자동 전송
     ├── run.js             # 메인 실행 스크립트 (Node.js)
     ├── prompts/           # 프롬프트 템플릿 (.txt)
